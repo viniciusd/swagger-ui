@@ -26,7 +26,7 @@ JSON editor configuration example:
                 sorter: "alpha",
 ```
 
-Give it a [try](http://swaggerui.herokuapp.com/) and enter your own swagger definition.
+Give it a [try](http://swaggerui.herokuapp.com/?url=http://petstore.swagger.io/v2/swagger.json) and enter your own swagger definition.
 
 
 ## Disclaimer
