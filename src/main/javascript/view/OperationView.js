@@ -21,40 +21,6 @@ SwaggerUi.Views.OperationView = Backbone.View.extend({
     return this;
   },
 
-  mouseEnter: function (e) {
-/*    var elem = $(this.el).find('.content');
-    var x = e.pageX;
-    var y = e.pageY;
-    var scX = $(window).scrollLeft();
-    var scY = $(window).scrollTop();
-    var scMaxX = scX + $(window).width();
-    var scMaxY = scY + $(window).height();
-    var wd = elem.width();
-    var hgh = elem.height();
-
-    if (x + wd > scMaxX) {
-      x = scMaxX - wd;
-    }
-
-    if (x < scX) {
-      x = scX;
-    }
-
-    if (y + hgh > scMaxY) {
-      y = scMaxY - hgh;
-    }
-
-    if (y < scY) {
-      y = scY;
-    }
-
-    var pos = {};
-    pos.top = y;
-    pos.left = x;
-    elem.css(pos);
-    $(e.currentTarget.parentNode).find('#api_information_panel').show(); */
-  },
-
   mouseExit: function (e) {
     $(e.currentTarget.parentNode).find('#api_information_panel').hide();
   },
