@@ -22,7 +22,7 @@ SwaggerUi.Views.OperationView = Backbone.View.extend({
   },
 
   mouseEnter: function (e) {
-    var elem = $(this.el).find('.content');
+/*    var elem = $(this.el).find('.content');
     var x = e.pageX;
     var y = e.pageY;
     var scX = $(window).scrollLeft();
@@ -52,7 +52,7 @@ SwaggerUi.Views.OperationView = Backbone.View.extend({
     pos.top = y;
     pos.left = x;
     elem.css(pos);
-    $(e.currentTarget.parentNode).find('#api_information_panel').show();
+    $(e.currentTarget.parentNode).find('#api_information_panel').show(); */
   },
 
   mouseExit: function (e) {
